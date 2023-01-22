@@ -55,3 +55,11 @@ Los pasos son los mismos
 3) creamos el build.sh
 4) creamos los requisitos de pip
 5) setiamos el build, instalamos gunicorn y actualizamos el requirements
+
+## posible error
+
+si nos sale un error con django al momento de desplegar debemos
+cambiar la versión de django en el requirements.txt a 4.0 y la versión
+de python a 3.8.4 por ejemplo la versión de python es en las variables
+ de entorno junto con la variable de la conexión a labase de datos+
+ y la variable de la llave secreta
