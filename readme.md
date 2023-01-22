@@ -51,3 +51,7 @@ que buscar otra manera o editar los viewsets
 Los pasos son los mismos
 
 1) creamos un repositorio de git ignorando la base de datos db.sql3
+2) alteramos el archivo settings.py
+3) creamos el build.sh
+4) creamos los requisitos de pip
+5) setiamos el build, instalamos gunicorn y actualizamos el requirements
